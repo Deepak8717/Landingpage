@@ -1,20 +1,247 @@
+html,body {
+    margin:0;
+    padding: 0;
+}
 nav{
     width:100%;
     height: 60px;
     background-color:#808080;
     text-align: center;
+    margin-bottom: 0px;
+    position: fixed;
 }
 nav a{
     display: inline-block;
     padding: 8px 16px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
+    font-weight: bold;
+
     text-decoration: none;
     border:0.3px solid #bfbfbf;
     margin: 10px 5px;
     color: white;
+  
     
 }
 nav a:hover{
     background-color:#a6a6a6;
 }
+.header{
+    width: 100%;
+    height: 80%;
+    background: url("../img/bg-1.jpg") center;
+    background-size: cover;
+    
+}
+.title{
+    padding-top: 250px;
+    text-align: center;
+}
+.title h1{
+    font-size: 3em;
+    padding: 0;
+}
+.title h4{
+    margin-top:-10px;
+   font-size: 1.5em;
+}
+.feature{
+    width: 26.7%;
+    height: 50%;
+    background-color: #e6f2ff;
+    margin-left: 20px;
+    margin-right: 20pX;
+   
+  }
+  
+  .feature h3,p{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 15px;
+    text-align: left;
+     }
+
+     .feature h3{
+         font-size: 20px;
+     }
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container2{
+    display: flex;
+    margin-top:100px;
+    width: 100%;
+    justify-content: center;
+   
+}
+.blog-content{
+    width: 41%;
+    margin-left: 27px;
+    margin-right: 27px;
+    background-color: #e6f2ff;
+}
+.blog-content h3{
+    text-align: center;
+}
+.blog-content p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container3{
+    margin-top: 50px;
+    background:url("../img/bg-2.jpg");
+    height: 50%;
+    background-size: cover;
+    min-width: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    
+}
+.container3 >div{
+    width:75%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top:10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+   text-align: center;
+  color:white;
+}
+.container3 > div >p{
+    text-align: center;
+    font-size: 18px;
+    color:white;
+}
+.Container4{
+    display: flex;
+    justify-content: center;
+}
+.Container4 > div{
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        width: 20%;
+        background-color: #e6f2ff;
+}
+.container4 > div >img{
+    width: 100%;
+}
+.container4 > div >p{
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+.Container5 > div{
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    width:85%;
+    background-color: #e6f2ff;
+}
+.Container5 > div > img{
+    width:100%;
+}
+.container5 > div > h1,p{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.Container6{
+    margin-top:50px;
+    background:url("../img/bg-3.jpg");
+    height: 85%;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+
+}
+
+.container6 > div{
+    
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top:5%;
+   margin-bottom: 5%;
+   text-align: center;
+  color:white;
+
+}
+.container6 > div >div {
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-radius: 5px;
+    padding: 15px 15px;
+    background-color: gainsboro;
+}
+ .contactform{
+     display: flex;
+     flex-direction: row;
+ }
+ .container6 > div > form >div{
+    width:75%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-radius: 5px;
+   
+ }
+ .container6 > div > form >div>div{
+     
+   
+    margin:10px 10px;
+    width:50%;
+    box-sizing: border-box;
+ }
+ .container6 > div > form >div>div >input{
+     display: flex;
+     flex-direction: column;
+     margin: 8px 0;
+     width: 100%;
+     padding: 8px 8px;
+     background-color: gainsboro;
+     border-radius: 5px;
+ }
+ .container6 > div > form >div>div>textarea{
+    width: 100%;
+    padding: 8px 8px;
+    height: 22%;
+    margin: 8px 0;
+    background-color: gainsboro;
+    border-radius: 5px;
+ }
+ .button{
+    padding:10px 20px;
+    margin-left: 125px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: black !important;
+    color:white;
+ }
+ footer{
+     width: 50%;
+     margin: 0 auto;
+     text-align: center;
+     font-style: italic;
+     color: #808080;
+     margin-top: 30px;
+     margin-bottom: 30px;
+
+ }
+ footer >p{
+     margin-top:20px;
+     margin-bottom: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     width:60%;
+     font-style: normal;
+     color: #000;
+ }
